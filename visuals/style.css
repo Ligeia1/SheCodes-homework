@@ -112,13 +112,24 @@ img {
 }
 
 @media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center !important;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
   #yoga-image,
   #weather-image,
   #yogurt-image {
     display: none;
-  }
-
-  h1 {
-    font-size: 70px;
   }
 }
