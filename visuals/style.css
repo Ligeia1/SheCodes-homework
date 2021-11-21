@@ -110,3 +110,15 @@ img {
 #hello {
   margin-top: 100px;
 }
+
+@media (max-width: 576px) {
+  #yoga-image,
+  #weather-image,
+  #yogurt-image {
+    display: none;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+}
