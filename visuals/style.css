@@ -127,6 +127,10 @@ img {
     font-size: 40px;
   }
 
+  img {
+    margin: 10px auto;
+  }
+
   #yoga-image,
   #weather-image,
   #yogurt-image {
